@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seletor ID</title>
+
+    <!--JS-->
+    <script>
+
+        function exibirConteudo(){
+            var campo = document.getElementById("campo");
+            alert(campo.value);
+            //campo.value =" ";
+            //alert("Agora vai adicionar um novo falar a campo");
+            //campo.value = "Novo conteudo"
+            //alert(campo.value);
+        }
+
+    </script>
+</head>
+<body>
+
+<input type="text" id="campo">
+<button onclick="exibirConteudo()">Clique aqui</button>
+
+</body>
+</html>
