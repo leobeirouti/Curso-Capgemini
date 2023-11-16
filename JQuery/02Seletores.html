@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seletores - JQuery</title>
+
+    <!--JQuery-->
+    <script src="jquery-3.7.1.js"></script>
+
+    <!--Script-->
+    <script>
+
+        //Ao carrecar o documento
+        $(document).ready(function () {
+
+            //Variáveis
+            var campo = $("input").val(); // Para pegar o Value de TEXT
+            var titulo = $("#titulo").html(); // Para pegar o ID
+            var subtitulo = $(".subtitulo").html(); // Para pegar a class
+
+            //Exibir
+            alert(campo);
+            alert(titulo);
+            alert(subtitulo);
+
+        });
+
+    </script>
+
+</head>
+<body>
+<input type="text" value="Campo nome">
+<h1 id="titulo">Título em H1</h1>
+<h2 class="subtitulo">Título em H2</h2>
+</body>
+</html>
