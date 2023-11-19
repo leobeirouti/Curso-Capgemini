@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exibir e ocultar - JQuery</title>
+
+    <!--JQuery-->
+    <script src="jquery-3.7.1.js"></script>
+
+    <!--Script-->
+    <script>
+
+        //Ao carrecar o documento
+        $(document).ready(function () {
+
+            //Exibir
+            $("#exibir").click(function (){
+                $("img").show();
+            })
+
+            //Ocultar
+            $("#ocultar").click(function (){
+                $("img").hide();
+            })
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+<button id="exibir">Exibir</button>
+<button id="ocultar">Ocultar</button>
+<br>
+<img src="Proway_Logo.png" width="250" height="50">
+
+
+</body>
+</html>
