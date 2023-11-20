@@ -1,2 +1,2 @@
 Ultima aula assistida:
-Trilha Java > JavaScript e JQuery > Aula 5.I
+Trilha Java > Angular > Aula 4.B
